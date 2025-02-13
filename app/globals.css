@@ -3,19 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #fff;
   font-family: Arial, Helvetica, sans-serif;
+}
+.dark {
+  background: rgb(107 114 128 / var(--tw-bg-opacity, 1));
+}
+
+.span-wrap {
+  span {
+    color: red;
+  }
 }

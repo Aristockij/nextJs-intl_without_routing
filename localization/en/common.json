@@ -1,0 +1,27 @@
+{
+  "HomePage": {
+    "locale": "en",
+    "title": "Hello!",
+    "text": "One project - two builds. Use npm run build:ru or npm run build:en to get different builds in different languages",
+    "subtext": "But remember! next-intl does not support arrays inside objects, instead use key-value pairs to iterate as shown below",
+    "cards": {
+      "0": {
+        "title": "first card",
+        "text": "this is test card for example how you can iterate of objects 1"
+      },
+      "1": {
+        "title": "second card",
+        "text": "this is test card for example how you can iterate of objects 2"
+      },
+      "2": {
+        "title": "third card",
+        "text": "this is test card for example how you can iterate of objects 3"
+      }
+    },
+    "btn": {
+      "light": "Light",
+      "dark": "dark"
+    },
+    "stateOfLang": "It is also possible to change certain words depending on which language was selected inside the client component."
+  }
+}
