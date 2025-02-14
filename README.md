@@ -10,5 +10,5 @@
 4) Run `npm run build:ru`, `npm run build:en`, or any other language you’ve added
 
 
-### this is ru version: https://vercel.com/aristockijs-projects/next-js-intl-without-routing
+### this is ru version: https://next-js-intl-without-routing.vercel.app/
 ### this is en version: https://next-js-intl-without-routing-en.vercel.app/
